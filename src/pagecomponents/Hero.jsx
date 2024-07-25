@@ -4,8 +4,8 @@ import { GoArrowRight } from "react-icons/go";
 
 const Hero = () => {
   return (
-    <div className='flex'>
-          <div className='relative top-[90px] ml-[120px]'>
+    <div className='flex w-[1170px] mx-auto'>
+          <div className='relative top-[90px] '>
             <div className='flex gap-2 items-center'>
                 <div className=' w-[122px] bg-green h-[1px]'></div>
                 <p className='text-[24px] font-semibold text-black'>Marketing Agency</p>
@@ -23,7 +23,7 @@ const Hero = () => {
 
             </div>
           </div>
-         <Image src="/images/minimalistic_poster41.png" className=" relative top-[-130px]  z-[-1]" width={400} height={900} alt="minimalistic"/>
+         <Image src="/images/minimalistic_poster41.png" className=" relative top-[-130px]  z-[-1] left-[-100px]" width={400} height={900} alt="minimalistic"/>
     
     </div>
   )

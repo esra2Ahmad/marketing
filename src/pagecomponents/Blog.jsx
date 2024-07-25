@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const Blog = () => {
   return (
-    <div className="mt-[150px] mx-[120px]">
+    <div className="mt-[150px] mx-auto w-[1170px]">
       <div className="flex gap-2 items-center">
         <div className=" w-[122px] bg-green h-[1px]"></div>
         <p className="text-[24px] font-semibold text-black">Blog</p>
       </div>
-      <div className="flex gap-[450px] items-start mt-4">
+      <div className="flex gap-[350px] items-start mt-4">
         <h1 className="text-[64px] font-bold text-black">
           Navigating the Digital
           <br /> Sphere

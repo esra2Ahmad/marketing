@@ -10,7 +10,7 @@ import { MdOutlineMail } from "react-icons/md";
 const Footer = () => {
   return (
     <div className=' bg-black w-full h-full mt-[200px]'>
-        <div className='flex gap-[100px] mx-[120px] '>
+        <div className='flex gap-[100px] mx-[160px] '>
             <div>
               <Image src="/images/Logo.png" width={200} height={40} alt=""  className=' mt-[80px]'/>
               <p className='text-white text-[14px] tracking-wide mt-9'>ElevateSphere is your gateway to elevating your<br/> digital presence and reaching new heights.</p>

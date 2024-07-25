@@ -5,7 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 const Contact = () => {
   return (
     <div>
-    <div className=' mt-[200px] w-[1270px] h-[518px] bg-green3 ml-[120px] flex '>
+    <div className=' mt-[200px] w-[1170px] h-[518px] bg-green3 mx-auto flex '>
         <Image src="/images/Frame 32.png" width={446} height={518} alt="contact"/>
         <div>
         <div className="flex gap-2 items-center mt-11 mx-[70px]">
@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
        
     </div>
-    <button className="w-[190px] h-[51px]  text-[16px] font-medium text-green border border-green bg-white rounded-[100px] hover:bg-green hover:text-white flex items-center px-6 gap-2 ml-[620px] mt-[-100px]" >Get in Touch <GoArrowRight /> </button>
+    <button className="w-[190px] h-[51px]  text-[16px] font-medium text-green border border-green bg-white rounded-[100px] hover:bg-green hover:text-white flex items-center px-6 gap-2 ml-[680px] mt-[-100px]" >Get in Touch <GoArrowRight /> </button>
     </div>
   )
 }
